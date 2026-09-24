@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunted — NICO</title>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+    <a href="index.html#home" class="nav-logo">NICO</a>
+    <button class="nav-toggle" type="button" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#works">Works</a>
+      <a href="index.html#builds">Orders</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="proof.html">Vouches &amp; Proof</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="index.html#how-it-works">How Working With Me Goes</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="project-page-hero">
+      <div class="section-inner-wide">
+        <a href="index.html#works" class="back-link">← Back to Works</a>
+        <p class="eyebrow" id="project-type-label"></p>
+        <h1 class="proof-title" id="project-title"></h1>
+        <div class="contrib-block">
+          <p class="specialty-label">MY CONTRIBUTIONS</p>
+          <ul class="specialty-list" id="project-contrib-list"></ul>
+        </div>
+        <div id="project-external-link" class="project-external-link"></div>
+      </div>
+    </section>
+
+    <section class="featured-section">
+      <div class="section-inner-wide">
+        <p class="eyebrow">FEATURED</p>
+        <div id="featured-media" class="featured-media"></div>
+      </div>
+    </section>
+
+    <section class="project-page-categories">
+      <div class="section-inner-wide">
+        <div id="category-tabs" class="category-tabs"></div>
+        <div id="category-media" class="builds-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© 2026 NICO. All rights reserved.</p></footer>
+
+  <script src="js/first-person-data.js"></script>
+  <script src="js/project-page.js"></script>
+</body>
+</html>

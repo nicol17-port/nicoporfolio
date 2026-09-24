@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NICO — Roblox Developer</title>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <nav class="navbar">
+    <a href="#home" class="nav-logo">NICO</a>
+    <button class="nav-toggle" type="button" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#builds">Others</a>
+      <a href="#what-i-build">What I Can Build</a>
+      <a href="#pricing">Pricing</a>
+      <a href="proof.html">Vouches &amp; Proof</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#how-it-works">How Working With Me Goes</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="home-inner">
+      <div class="home-content">
+        <p class="eyebrow">PROGRAMMER • ROBLOX SCRIPTER • UI DESIGNER • GAME DEVELOPER</p>
+        <h1 class="home-title">NICO</h1>
+        <span class="home-title-accent"></span>
+        <p class="home-subtitle">3+ years building UI systems and gameplay scripts for Roblox experiences.</p>
+        <div class="home-buttons">
+          <a href="#works" class="btn btn-primary">VIEW MY WORK</a>
+          <a href="#contact" class="btn btn-secondary">CONTACT ME</a>
+        </div>
+      </div>
+      <div class="home-visual">
+        <img id="profile-pic" src="assets/images/profile.png" alt="NICO profile picture" class="profile-pic">
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="reveal">
+    <div class="section-inner">
+      <p class="eyebrow">ABOUT</p>
+      <p class="about-bio">
+        I'm a programmer focused mainly on UI design and scripting. I enjoy creating functional systems and clean interfaces for Roblox experiences. I can also handle Roblox building and animation depending on the project, but my main focus is UI design and scripting.
+      </p>
+      <div class="about-specialties">
+        <div class="specialty-group">
+          <p class="specialty-label">PRIMARY</p>
+          <ul class="specialty-list">
+            <li>Roblox Scripting</li>
+            <li>UI Design</li>
+            <li>UI Scripting</li>
+          </ul>
+        </div>
+        <div class="specialty-group">
+          <p class="specialty-label">SECONDARY</p>
+          <ul class="specialty-list">
+            <li>Building</li>
+            <li>Animation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">WORKS</p>
+      <div id="works-container"></div>
+    </div>
+  </section>
+
+  <section id="builds" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">OTHERS</p>
+      <p class="section-note">Extra Roblox building and animation work — secondary skills, shown alongside my main scripting and UI focus.</p>
+      <div class="builds-grid" id="builds-container"></div>
+    </div>
+  </section>
+
+  <section id="what-i-build" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">WHAT I BUILD</p>
+      <h2 class="proof-title">What I can build for your game</h2>
+      <p class="section-note">If it's not on this list, ask anyway. It's probably still something I can do.</p>
+      <div class="build-types-box">
+        <div class="build-type-item">
+          <p class="build-type-number">01</p>
+          <h3 class="build-type-title">Custom mechanics</h3>
+          <p class="build-type-desc">The feature that makes your game yours — an idea nobody had scripted yet, turned into something players can use.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">02</p>
+          <h3 class="build-type-title">Tycoons &amp; progression</h3>
+          <p class="build-type-desc">Conveyors, upgrades, rebirths, offline earnings and the maths that keeps all of it worth playing. A full one of these is live on Roblox right now.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">03</p>
+          <h3 class="build-type-title">Shops, money &amp; saving</h3>
+          <p class="build-type-desc">Coins, gamepasses, inventories, trading, and saving that never loses a player's stuff, even when Roblox hiccups. Players quit games that eat their progress.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">04</p>
+          <h3 class="build-type-title">Anti-exploit protection</h3>
+          <p class="build-type-desc">Everything that matters happens on the server, where cheaters can't reach it. No duplicated items, no free currency, no exploiter wrecking your reviews.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">05</p>
+          <h3 class="build-type-title">Performance fixes</h3>
+          <p class="build-type-desc">Full server turning into a slideshow? I find what's actually costing frames — usually replication nobody needed — and get it back to smooth.</p>
+        </div>
+                <div class="build-type-item">
+          <p class="build-type-number">06</p>
+          <h3 class="build-type-title">Game rescues</h3>
+          <p class="build-type-desc">Old scripter vanished? Bugs nobody can find? I read other people's code, work out the mess, and get you back on track.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">07</p>
+          <h3 class="build-type-title">Animations</h3>
+          <p class="build-type-desc">R6/R15 character animations, tool animations, and in-game action sequences that feel responsive instead of stiff.</p>
+        </div>
+        <div class="build-type-item">
+          <p class="build-type-number">08</p>
+          <h3 class="build-type-title">Building &amp; maps</h3>
+          <p class="build-type-desc">Full builds and maps shaped around your game's theme, from a single area to something built to hold an entire game.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">PRICING</p>
+      <p class="section-note">Custom Roblox development services. All prices are in USD.</p>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3 class="pricing-title">UI Design</h3>
+          <p class="pricing-desc">Custom interface design for menus, HUDs, shops, and in-game systems.</p>
+          <p class="pricing-price">From $20</p>
+        </div>
+        <div class="pricing-card">
+          <h3 class="pricing-title">Roblox Scripting</h3>
+          <p class="pricing-desc">Gameplay systems, mechanics, and backend logic.</p>
+          <p class="pricing-price">From $20</p>
+        </div>
+        <div class="pricing-card">
+          <h3 class="pricing-title">UI Scripting</h3>
+          <p class="pricing-desc">Functional, connected interfaces — menus and systems that actually work, not just look good.</p>
+          <p class="pricing-price">From $50</p>
+        </div>
+                <div class="pricing-card">
+          <h3 class="pricing-title">Custom Systems</h3>
+          <p class="pricing-desc">Tailored systems built around your project's specific needs.</p>
+          <p class="pricing-price">From $50</p>
+        </div>
+        <div class="pricing-card">
+          <h3 class="pricing-title">Animations</h3>
+          <p class="pricing-desc">Custom Roblox animations for characters, tools, and in-game actions.</p>
+          <p class="pricing-price">From $50</p>
+        </div>
+        <div class="pricing-card">
+          <h3 class="pricing-title">Building / Map</h3>
+          <p class="pricing-desc">Custom builds and maps designed to fit your game's theme and layout.</p>
+          <p class="pricing-price">From $50</p>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-primary">REQUEST A QUOTE</a>
+    </div>
+  </section>
+
+  <section id="payment-methods" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">PAYMENT METHODS</p>
+      <div class="payment-grid">
+        <span class="payment-item">Crypto</span>
+        <span class="payment-item">Invoice</span>
+        <span class="payment-item">Chime</span>
+        <span class="payment-item">Cash App</span>
+        <span class="payment-item">Other options can be discussed in DM</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">REVIEWS</p>
+      <p class="section-note">Straight from people who've hired me.</p>
+      <div class="reviews-grid" id="reviews-container"></div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="reveal">
+    <div class="section-inner-wide">
+      <p class="eyebrow">HOW WORKING WITH ME GOES</p>
+      <p class="section-note">No confusing tech talk, no surprises on price. Three simple steps.</p>
+      <div class="steps-grid">
+        <div class="step-item">
+          <span class="step-number">1</span>
+          <h3 class="step-title">Tell me what you want</h3>
+          <p class="step-desc">In your own words. Describe the system, UI, or feature you need — I'll ask a few questions and tell you honestly what's straightforward and what's more involved.</p>
+        </div>
+        <div class="step-item">
+          <span class="step-number">2</span>
+          <h3 class="step-title">Get one clear price</h3>
+          <p class="step-desc">You get a fixed quote before anything starts. The price agreed on is the price you pay — no surprise costs partway through.</p>
+        </div>
+        <div class="step-item">
+          <span class="step-number">3</span>
+          <h3 class="step-title">Watch it come to life</h3>
+          <p class="step-desc">I build it and send updates as it takes shape, so you're never left wondering what's happening. You get working features, not just a folder of code or animations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="section-inner">
+      <p class="eyebrow">CONTACT</p>
+      <p class="section-note">Best way to reach me is Discord — click below to open my profile and send a request, or email me directly.</p>
+      <div class="contact-links">
+        <a href="https://discord.com/users/1381666139465318480" class="btn btn-primary" target="_blank" rel="noopener">HIRE ME ON DISCORD</a>
+        <a href="mailto:nicolasjackson0801@gmail.com" class="btn btn-secondary">nicolasjackson0801@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <p class="final-note">These are only a few examples of my past work. I have more projects and work available in DMs — feel free to reach out if you'd like to see more.</p>
+
+  <footer class="site-footer"><p>© 2026 NICO. All rights reserved.</p></footer>
+
+  <script src="js/builds-data.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/vouches-data.js"></script>
+  <script src="js/reviews-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
